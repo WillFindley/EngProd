@@ -1,3 +1,6 @@
+"Enable syntax highlighting
+syntax on
+
 "Backspace working
 set backspace=indent,eol,start
 
