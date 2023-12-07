@@ -24,3 +24,8 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
+# Use proper VIM
+if (command -v brew && brew list --formula | grep -c vim ) > /dev/null 2>&1; then
+    alias vim="$(brew --prefix vim)/bin/vim"
+fi
+
