@@ -4,6 +4,9 @@ syntax on
 "See line numbers
 set number
 
+"See lines getting too long
+set colorcolumn=80
+
 "Backspace working
 set backspace=indent,eol,start
 
