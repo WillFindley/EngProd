@@ -1,6 +1,9 @@
 "Enable syntax highlighting
 syntax on
 
+"See line numbers
+set number
+
 "Backspace working
 set backspace=indent,eol,start
 
